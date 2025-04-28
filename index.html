@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homepage</title>
+</head>
+<style>
+    body {
+        background-color: #F7FBFC;
+        margin: 0;
+        padding: 0;
+    }
+
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #454744;
+        padding: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 1000;
+    }
+
+    .name {
+        font-size: 24px;
+        font-weight: bold;
+        font-family: fantasy;
+        color: #F7FBFC;
+        margin-left: 40px;
+
+    }
+
+    .welcome {
+        border: 1px solid black;
+        border-radius: 8px;
+        margin: 20px;
+        margin-top: 180px;
+    }
+
+    .welcome img {
+        width: 100%;
+        height: auto;
+        display: block;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .intro-text {
+        font-size: 15px;
+        font-weight:200;
+        font-family: fantasy;
+        color: #382F40;
+        text-align: center;
+        margin: 40px 0;
+        padding: 50px;
+
+    }
+
+
+
+    .cart {
+        background-color: #454744;
+        padding: 8px 40px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .cart:hover {
+        background-color: #454744;
+    }
+
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+        justify-content: space-between;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+
+    .section {
+        width: 250px;
+        background-color: #ffffff;
+        color: rgb(31, 30, 30);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+        gap: 5px;
+        border-radius: 8px;
+        border: 0.5px solid #9d9d9d;
+
+    }
+
+    .section img {
+        width: 100%;
+        height: auto;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    button {
+        padding: 10px;
+        border: none;
+        background-color: #7A5B61;
+        color: white;
+        font-weight: bold;
+        border-radius: 5px;
+        border: 0.5px solid black;
+    }
+
+    button:hover {
+        background-color: #5b4348;
+    }
+
+    .price {
+        font-weight: bold;
+        font-size: x-large;
+        color: #382F40;
+    }
+
+    .footer {
+        text-align: center;
+        font-size: 14px;
+        color: #454744;
+        margin-top: 40px;
+        padding-bottom: 20px;
+        width: 100%;
+    }
+
+    a {
+        text-decoration: none;
+    }
+</style>
+
+<body>
+    <div class="header">
+        <p class="name">StrayFig</p>
+        <a href="cart.html"><button class="cart">
+                <img src="https://cdn-icons-png.flaticon.com/512/263/263142.png" width="40px" height="40px">
+            </button></a>
+    </div>
+
+    <div class="welcome">
+        <img src="https://igirisujen.wordpress.com/wp-content/uploads/2018/03/igirisujenheader16.jpg?w=1200"
+            alt="bsd header">
+    </div>
+    <div class="intro-text">
+        Welcome to StrayFig — your ultimate destination for Bungo Stray Dogs merch! Whether you're into Dazai, Chuuya,
+        Fyodor, or the entire Armed Detective Agency, we’ve got the figures and collectibles every BSD fan dreams of.
+    </div>
+
+    <hr>
+
+    <div class="container">
+
+        <a href="add-to-cart.html">
+            <div class="section">
+                <img src="https://www.merchoid.com/media/catalog/product/cache/c596ba1c06493c5e4c894f7b91dd98c9/b/u/bungo-stray-dogs-osamu-dazai-original-series-age-fifteen-ver-1-7-statue-23cm-1.jpg"
+                    alt="dazai" width="100px" height="100px" />
+                Bungo Stray Dogs Osamu Dazai: Original Series Age Fifteen Ver. Figure
+                <p class="price"> $140 USD</p>
+                <button>Add to cart</button>
+
+            </div>
+        </a>
+
+
+        <a href="chuya.html">
+            <div class="section">
+                <img src="https://animota.net/cdn/shop/products/pop-up-parade-bungo-stray-dogs-chuya-nakahara-complete-figure-709166.jpg?v=1650507814"
+                    alt="chuya" width="100px" height="100px" />
+                Orange Rouge Bungo Stray Dogs: Chuya Nakahara Pop Up Parade PVC Figure, Multicolor
+                <p class="price"> $150 USD</p>
+                <button>Add to cart</button>
+            </div>
+        </a>
+
+
+        <a href="akutagawa.html">
+            <div class="section">
+                <img src="https://jazeelme.com/cdn/shop/products/good-smile-company-pop-up-parade-bungo-stray-dogs-ryunosuke-akutagawa-pop-up-parade-20686910783646.jpg?v=1623470215"
+                    alt="akutagawa" width="100px" height="100px" />
+                Akutagawa Ryunosuke Bungo Stray Dogs DEAD APPLE
+                <p class="price"> $270 USD</p>
+                <button>Add to cart</button>
+            </div>
+        </a>
+
+
+        <a href="sigma.html">
+            <div class="section">
+                <img src="https://www.calembou.com/cdn/shop/files/bungo-stray-dogs-sigma-plush-keychain_2.jpg?v=1740966528"
+                    alt="sigma" width="100px" height="100px" />
+                20CM Plush Sigma
+                <p class="price"> $22 USD </p>
+                <button>Add to cart</button>
+            </div>
+        </a>
+
+
+        <a href="fyodor.html">
+            <div class="section">
+                <img src="https://i5.walmartimages.com/seo/HeaDream-Bungo-Stray-Dogs-Throw-Pillow-Back-School-Plush-Toy-Gift-5-Fyodor-Dostoyevsky-Cartoon-Theme-Rag-Doll-Cute-Stuff-Doll-Essentials_8324edec-b341-4031-856f-7ba575848ae4.da401b2e10bd09705dbe8e382f034008.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+                    alt="fyodor" width="100px" height="100px" />
+                Fyodor Dostoyevsky Mini Pendant Keychain
+                <p class="price"> $50 USD</p>
+                <button>Add to cart</button>
+            </div>
+        </a>
+
+
+        <a href="gogol.html">
+            <div class="section">
+                <img src="https://i5.walmartimages.com/asr/859e8974-75df-4f86-adc8-89e7b9c844d7.4e05ca1ba56ebe9722bf6c6f795aa3b6.jpeg?odnHeight=768&odnWidth=768&odnBg=FFFFFF"
+                    alt="gogol" width="100px" height="100px" />
+                20CM Plush Nikolai Gogol
+                <p class="price"> $20 USD</p>
+                <button>Add to cart</button>
+            </div>
+        </a>
+
+        <div class="footer">
+            <p>📧 Contact: StrayFig@gmail.com | 📞 +1 (800) 123-4567</p>
+            <p>© 2025 StrayFig Anime FigureShop</p>
+            <p>Made by Jargalan, Munkhgerel and Galindimaa from 10B</p>
+        </div>
+    </div>
+</body>
+
+</html>
